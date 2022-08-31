@@ -204,8 +204,8 @@ p {
         text-align: center;
     }
     
-    .carousel-inner {
-        min-height: 600px;
+    .carousel-item {
+        min-height: 625px !important;
     }
 
     .testimonial-image {
@@ -216,6 +216,6 @@ p {
     }
 
     .footerbtn {
-        margin: 0 2%;
+        margin: 0 5%;
     }
 }
