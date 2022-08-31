@@ -198,4 +198,9 @@ p {
         font-size: 2rem;
         line-height: 1.5;
     }
+    
+    #hours {
+        padding: 20px;
+        text-align: center;
+    }
 }
