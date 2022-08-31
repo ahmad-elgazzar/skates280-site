@@ -203,4 +203,19 @@ p {
         padding: 20px;
         text-align: center;
     }
+    
+    .carousel-inner {
+        min-height: 600px;
+    }
+
+    .testimonial-image {
+        width: 25%;
+        height: 25%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+
+    .footerbtn {
+        margin: 0 2%;
+    }
 }
