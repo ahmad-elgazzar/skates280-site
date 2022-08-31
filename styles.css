@@ -1,0 +1,187 @@
+
+#title {
+    background-color: #293462;
+    color: white;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: #1CD6CE;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2, h3 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+/* Nav Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 5%;
+    border-radius: 50%;
+}
+
+.img-div {
+    position: relative;
+}
+
+/* Features */
+
+.feature-icon {
+    margin: auto;  
+    color: #293462;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Testimonials */
+
+.testimonial-image {
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-disclaimer{
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/*
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+*/
+
+/* Pricing */
+
+#hours {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Parties */
+
+#parties {
+    background-color: #D61C4E;
+    text-align: center;
+    color: #fff;
+    padding: 7% 15% 2%;
+}
+
+.parties-table{
+    color: white;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 3% 15% 2%;
+    background-color: #fff;
+}
+
+.footer-icon {
+    padding: 0 .5% 1rem;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
